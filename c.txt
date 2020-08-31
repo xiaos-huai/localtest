@@ -1,2 +1,6 @@
 aaa
-bbb
+<<<<<<< HEAD
+aaa
+=======
+aaa
+>>>>>>> branch1
