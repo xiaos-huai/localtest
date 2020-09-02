@@ -1,0 +1,31 @@
+{
+  "name": "new",
+  "version": "1.0.0",
+  "description": "<!--\r  * @Author: your name\r  * @Date: 2020-08-30 16:32:20\r  * @LastEditTime: 2020-08-31 18:13:24\r  * @LastEditors: Please set LastEditors\r  * @Description: In User Settings Edit\r  * @FilePath: \\静态网站（笔记）c:\\Users\\陈红帅\\Desktop\\新建文件夹\\readme.md\r -->\r 111\r 222\r .gitignore 忽略问件 ignore 忽视\r 444444\r 诶~ 我又改了一次\r 7777777\r 9999999999",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib "
+  },
+  "babel":{
+    "presets": [
+      [
+      "@babel/env",
+        {
+          "targets": {
+            "chrome": "58",
+            "ie": "11"
+            }
+          }
+        ]
+      ]
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.11.5",
+    "@babel/core": "^7.11.5",
+    "@babel/plugin-transform-arrow-functions": "^7.10.4",
+    "@babel/preset-env": "^7.11.5"
+  }
+}

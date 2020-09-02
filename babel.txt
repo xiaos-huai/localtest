@@ -1,0 +1,10 @@
+Guide ：指南
+
+
+Babel的核心功能位于@ babel / core模块中
+@ babel / cli是允许您从终端使用babel的工具
+
+babel src -d lib
+将src文件夹编译，输入到lib文件夹
+babel src.js -o lib.js
+将src.js文件编译，输出文件为lib.js
